@@ -30,7 +30,7 @@
 
 /* make an event */
 .hero .btn:hover {
-    background: #663399;
+    background: #663399; 
     color: #28d2e5; 
     transition: .2s ease-in;
 }
