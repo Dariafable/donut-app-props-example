@@ -6,11 +6,11 @@
 
 .hero .container {
     max-width: 1240px;
+    height: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
 }
 
 .hero .content {
