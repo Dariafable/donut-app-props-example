@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+/* For understanding main colors */
 :root {
     --primary-color: #28d2e5;
     --additon-color: #663399;
