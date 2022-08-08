@@ -56,10 +56,9 @@ a {
     border: 1px solid #663399;
     border-radius: 25px;
     
-    background: transparent;
     color: #663399;
     font-size: 1rem;
-    background: rgba(40, 211, 221, .85);
+    background-color: rgba(40, 211, 221, .85);
 }
 
 /* Optional */
