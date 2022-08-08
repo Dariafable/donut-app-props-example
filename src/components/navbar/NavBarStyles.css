@@ -3,6 +3,7 @@
     height: 80px;
     position: fixed; 
     z-index: 1;
+    
     border-bottom: 1px solid #663399;
     background-color: rgba(40, 211, 221, .95); 
 }
