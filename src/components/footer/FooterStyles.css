@@ -9,6 +9,7 @@
 .footer .grid-container {
     max-width: 1240px;
     margin: auto;
+    
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
