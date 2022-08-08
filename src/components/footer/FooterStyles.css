@@ -1,0 +1,40 @@
+.footer {
+    width: 100%;
+    background-color: rgba(102, 51, 153, .9);
+    color: rgba(250, 235, 215, .9);
+    padding: 3rem 1rem;
+}
+
+.footer .grid-container {
+    max-width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer .col {
+    display: grid;
+    justify-content: center;
+    gap: 3px;
+}
+
+.col p {
+    cursor: pointer;
+}
+
+.footer .icon {
+    font-size: 2rem;
+    cursor: pointer;
+    margin: .5rem 1rem 0 0;
+}
+
+@media  screen and (max-width: 740px) {
+    .footer .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .footer .col {
+        justify-content: start;
+    }
+}

@@ -1,0 +1,7 @@
+.definder .text-definder {
+    padding: 1rem;
+    text-align: center;
+
+    color: rgb(250, 235, 215, .9);
+    background-color: rgba(102, 51, 153, .9);
+}
