@@ -15,7 +15,7 @@
 .footer .col {
     display: grid;
     justify-content: center;
-    gap: 3px;
+    gap: 5px;
 }
 
 .col p {
