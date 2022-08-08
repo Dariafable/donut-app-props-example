@@ -61,10 +61,11 @@ a {
     background: rgba(40, 211, 221, .85);
 }
 
-.btn-dark {
+/* Optional */
+/* .btn-dark {
     background: #663399;
-    color: var(--primary-color); 
-}
+    color: #28d2e5; 
+} */
 
 @media screen and (max-width: 740px){
     h1 {
