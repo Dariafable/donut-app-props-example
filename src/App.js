@@ -4,7 +4,7 @@ import NavBar from './components/navbar/NavBar';
 import Food from './components/food/Food'
 import Definder from './components/decoration/Definder';
 
-//Images import
+//Images import (props)
 import WvDonuts from './assets/WvDonuts.jpg'
 import OneChocolateDnt from './assets/OneChocolateDnt.jpg'
 import BrownDonuts from './assets/BrownDonuts.jpg'
