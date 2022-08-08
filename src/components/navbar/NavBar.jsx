@@ -11,7 +11,7 @@ const NavBar = () => {
 
   return (
     <div className='navbar'>
-        <div className="container">
+        <div className='container'>
              <div><GiDonut size={40} style={{marginLeft: '4px'}} /></div>
              <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                 <li><a href='#top'>Home</a></li>
