@@ -25,9 +25,10 @@
 .navbar li {
     padding: 1rem;
     font-size: 1.2rem;
+    cursor: pionter;
 }
 
-.navbar a:hover {
+.navbar li:hover {
     color: rgba(102, 51, 153, .75);
     transition: .2s ease-in;
 }
@@ -61,13 +62,13 @@
         transition: .7s;
     }
     
-    .nav-menu.active a {
+    .nav-menu.active li {
         color: rgba(250, 235, 215, .9);
         font-weight: 600;
         font-size: 2rem;
     } 
     
-    .nav-menu.active a:hover {
+    .nav-menu.active li:hover {
         color: rgba(40, 211, 221, 1); 
         transition: .3s ease-in;
     } 
