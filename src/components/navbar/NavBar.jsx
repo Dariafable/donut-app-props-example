@@ -14,10 +14,10 @@ const NavBar = () => {
         <div className='container'>
              <div><GiDonut size={40} style={{marginLeft: '4px'}} /></div>
              <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
-                <li><a href='#top'>Home</a></li>
-                <li><a href='#top'>Menu</a></li>
-                <li><a href='#top'>Order</a></li>
-                <li><a href='#top'>Delivery</a></li>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>Order</li>
+                <li>Delivery</li>
              </ul>
              <div className='hamburger' onClick={handleNav}>{nav ? (<CgClose size={25} style={{color: '#fff'}}/>) : <CgMenuRight size={25}/>}</div>
         </div>
