@@ -25,7 +25,7 @@
 .navbar li {
     padding: 1rem;
     font-size: 1.2rem;
-    cursor: pionter;
+    cursor: pointer;
 }
 
 .navbar li:hover {
